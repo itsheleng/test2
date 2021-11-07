@@ -14,10 +14,11 @@ st.info('Case study for our given data for predictive maintenance')
 
 st.text("")
 st.text("")
-
+data = pd.read_csv (r'https://drive.google.com/file/d/1cEMvten1WEJTae9xRw0JNezHrZZhhT9o/view?usp=sharing') 
 df = pd.read_csv('https://drive.google.com/file/d/1cEMvten1WEJTae9xRw0JNezHrZZhhT9o/view?usp=sharing',error_bad_lines=False, delimiter=',', quotechar='"')
 print(df)
-
+# Read in the dataset
+airbnb = pd.read_csv('https://github.com/adelnehme/python-for-spreadsheet-users-webinar/blob/master/datasets/airbnb.csv?raw=true', index_col = 'Unnamed: 0')
 
 st.sidebar.text("")
 st.sidebar.text("")
