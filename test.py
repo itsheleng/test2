@@ -13,6 +13,10 @@ import numpy as np
 st.title('CEI 523 Assignment 2021 📈')
 st.info('Case study for our given data for predictive maintenance')
 
+df = pd.read_csv('https://www.data.gov.cy/node/4844/download',error_bad_lines=False, delimiter=',', quotechar='"')
+
+display(df)
+
 st.text("")
 st.text("")
 
