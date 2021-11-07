@@ -7,11 +7,12 @@ import streamlit.components.v1 as components
 import datetime
 import streamlit as stl
 import numpy as np
-import data.csv
 
 # add title
 st.title('CEI 523 Assignment 2021 📈')
 st.info('Case study for our given data for predictive maintenance')
+
+from IPython.display import display
 
 df = pd.read_csv('https://www.data.gov.cy/node/4844/download',error_bad_lines=False, delimiter=',', quotechar='"')
 
