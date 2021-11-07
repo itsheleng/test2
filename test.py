@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 import datetime
 import streamlit as stl
 import numpy as np
-import matplotlib.pyplot as plt 
+
 
 # add title
 st.title('CEI 523 Assignment 2021 📈')
@@ -15,6 +15,8 @@ st.info('Case study for our given data for predictive maintenance')
 
 st.text("")
 st.text("")
+
+airbnb = pd.read_csv('https://github.com/adelnehme/python-for-spreadsheet-users-webinar/blob/master/datasets/airbnb.csv?raw=true', index_col = 'Unnamed: 0')
 
 dataset = pd.read_csv('https://raw.githubusercontent.com/xristofo/cei523/main/student_scores.csv')
 st.sidebar.text("")
