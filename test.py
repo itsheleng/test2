@@ -7,9 +7,9 @@ import streamlit.components.v1 as components
 import datetime
 import streamlit as stl
 import numpy as np
-from IPython.display import display
 import seaborn as sns
 import missingno as msno
+from IPython.display import display
 
 # add title
 st.title('CEI 523 Assignment 2021 📈')
