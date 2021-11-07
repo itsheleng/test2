@@ -16,7 +16,7 @@ st.text("")
 st.text("")
 
 dataset = pd.read_csv('https://github.com/itsheleng/test2/blob/3f6d2c0cfbdbeebbf2f6fb07fbdbee577004479c/data.csv', error_bad_lines=False )
-dataset.describe()
+dataset.describe
 
 
 st.sidebar.text("")
