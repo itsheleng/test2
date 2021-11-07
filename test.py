@@ -6,10 +6,7 @@ import pandas as pd
 import streamlit.components.v1 as components
 import datetime
 import streamlit as stl
-import matplotlib.pyplot as plt
-import numpy as np
-import seaborn as sns
-import missingno as msno
+
 
 # add title
 st.title('CEI 523 Assignment 2021 📈')
