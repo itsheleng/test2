@@ -7,12 +7,12 @@ import streamlit.components.v1 as components
 import datetime
 import streamlit as stl
 import numpy as np
-from IPython.display import display
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 import missingno as msno
 
-
+from IPython.display import display
 # add title
 st.title('CEI 523 Assignment 2021 📈')
 st.info('Case study for our given data for predictive maintenance')
