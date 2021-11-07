@@ -20,3 +20,9 @@ st.sidebar.info('[Given Data](https://drive.google.com/file/d/1cEMvten1WEJTae9xR
 
 st.sidebar.title("🛈 About") 
 st.sidebar.info('Created and maintained by:'+'\r'+'[Eleni Giakoumi](eg.giakoumi@edu.cut.ac.cy)'+'[ Andreas Othonos](am.othonos@edu.cut.ac.cy)'+'[ Andriani Petrou](ae.petrou@edu.cut.ac.cy)')
+
+
+df = pd.read_csv('https://www.data.gov.cy/node/4844/download',error_bad_lines=False, delimiter=',', quotechar='"')
+
+#print(df)
+display(df)
