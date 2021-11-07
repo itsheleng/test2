@@ -15,8 +15,7 @@ st.text("")
 st.text("")
 
 df = pd.read_csv('https://www.data.gov.cy/node/4844/download',error_bad_lines=False, delimiter=',', quotechar='"')
-
-display(df)
+print(df)
 
 
 st.sidebar.text("")
