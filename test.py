@@ -14,8 +14,6 @@ st.info('Case study for our given data for predictive maintenance')
 st.text("")
 st.text("")
 
-df = pd.read_excel (r'https://drive.google.com/file/d/1cEMvten1WEJTae9xRw0JNezHrZZhhT9o/view?usp=sharing\data.csv')
-print (df)
 
 st.sidebar.text("")
 st.sidebar.text("")
