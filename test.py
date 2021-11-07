@@ -16,7 +16,7 @@ st.text("")
 st.text("")
 
 # Read in the dataset
-ded = pd.read_csv('https://github.com/itsheleng/test2/blob/3f6d2c0cfbdbeebbf2f6fb07fbdbee577004479c/data.csv?raw=true', index_col = 'Unnamed: 0')
+ded = pd.read_csv('https://github.com/itsheleng/test2/blob/3f6d2c0cfbdbeebbf2f6fb07fbdbee577004479c/data.csv')
 ded.head()
 
 st.sidebar.text("")
