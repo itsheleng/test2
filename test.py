@@ -13,6 +13,10 @@ st.info('Case study for our given data for predictive maintenance')
 
 st.text("")
 st.text("")
+
+df = pd.read_csv('https://www.data.gov.cy/node/4844/download',error_bad_lines=False, delimiter=',', quotechar='"')
+display(df)
+
 st.sidebar.text("")
 st.sidebar.text("")
 st.sidebar.title("🔗 Sources")
@@ -22,7 +26,4 @@ st.sidebar.title("🛈 About")
 st.sidebar.info('Created and maintained by:'+'\r'+'[Eleni Giakoumi](eg.giakoumi@edu.cut.ac.cy)'+'[ Andreas Othonos](am.othonos@edu.cut.ac.cy)'+'[ Andriani Petrou](ae.petrou@edu.cut.ac.cy)')
 
 
-df = pd.read_csv('https://www.data.gov.cy/node/4844/download',error_bad_lines=False, delimiter=',', quotechar='"')
 
-#print(df)
-display(df)
