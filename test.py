@@ -2,11 +2,12 @@
 #import the library
 import streamlit as st
 import altair as alt
-import pandas as pd
 import streamlit.components.v1 as components
 import datetime
 import streamlit as stl
 import numpy as np
+impport pandas as pd
+
 
 # add title
 st.title('CEI 523 Assignment 2021 📈')
