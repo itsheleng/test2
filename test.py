@@ -14,9 +14,7 @@ st.info('Case study for our given data for predictive maintenance')
 
 st.text("")
 st.text("")
-data = pd.read_csv (r'C:\Users\Dell\Downloads\data.csv') 
-df = pd.DataFrame(data, columns= ['UDI'])
-print (df)
+
 
 st.sidebar.text("")
 st.sidebar.text("")
