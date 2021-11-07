@@ -14,7 +14,7 @@ st.info('Case study for our given data for predictive maintenance')
 
 from IPython.display import display
 
-df = pd.read_csv('https://www.data.gov.cy/node/4844/download',error_bad_lines=False, delimiter=',', quotechar='"')
+df = pd.read_csv('https://drive.google.com/file/d/1cEMvten1WEJTae9xRw0JNezHrZZhhT9o/view?usp=sharing',error_bad_lines=False, delimiter=',', quotechar='"')
 
 display(df)
 
