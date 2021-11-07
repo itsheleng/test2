@@ -12,14 +12,16 @@ import numpy as np
 st.title('CEI 523 Assignment 2021 📈')
 st.info('Case study for our given data for predictive maintenance')
 
+
+st.text("")
+st.text("")
+
 from IPython.display import display
 
 df = pd.read_csv('https://drive.google.com/file/d/1cEMvten1WEJTae9xRw0JNezHrZZhhT9o/view?usp=sharing',error_bad_lines=False, delimiter=',', quotechar='"')
 
 display(df)
 
-st.text("")
-st.text("")
 
 st.sidebar.text("")
 st.sidebar.text("")
