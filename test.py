@@ -1,4 +1,4 @@
-# helloworld.py
+# test1.py
 #import the library
 import streamlit as st
 import altair as alt
@@ -11,12 +11,10 @@ import numpy as np
 # add title
 st.title('CEI 523 Assignment 2021 📈')
 st.info('Case study for our given data for predictive maintenance')
-
-
 st.text("")
 st.text("")
 
-st.info(https://drive.google.com/file/d/1cEMvten1WEJTae9xRw0JNezHrZZhhT9o/view?usp=sharing)
+data=pd.read_csv()
 
 st.sidebar.text("")
 st.sidebar.text("")
