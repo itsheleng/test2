@@ -16,12 +16,7 @@ st.info('Case study for our given data for predictive maintenance')
 st.text("")
 st.text("")
 
-from IPython.display import display
-
-file = "data.csv"
-opened = open(file, "r")
-readed = pd.read_csv(file)
-print(readed)
+st.info('Case study for our given data for predictive maintenance')
 
 st.sidebar.text("")
 st.sidebar.text("")
