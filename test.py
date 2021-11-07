@@ -15,7 +15,7 @@ st.text("")
 st.text("")
 
 df = pd.read_csv('https://drive.google.com/file/d/1cEMvten1WEJTae9xRw0JNezHrZZhhT9o/view?usp=sharing',error_bad_lines=False, delimiter=',', quotechar='"')
-print(df)
+display (df)
 
 
 st.sidebar.text("")
