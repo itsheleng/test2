@@ -6,7 +6,9 @@ import pandas as pd
 import streamlit.components.v1 as components
 import datetime
 import streamlit as stl
-
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
 
 # add title
 st.title('CEI 523 Assignment 2021 📈')
