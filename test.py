@@ -16,7 +16,7 @@ st.info('Case study for our given data for predictive maintenance')
 st.text("")
 st.text("")
 
-st.info('Case study for our given data for predictive maintenance')
+st.info(https://drive.google.com/file/d/1cEMvten1WEJTae9xRw0JNezHrZZhhT9o/view?usp=sharing)
 
 st.sidebar.text("")
 st.sidebar.text("")
