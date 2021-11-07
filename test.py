@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 import datetime
 import streamlit as stl
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 %matplotlib inline
 
 # add title
