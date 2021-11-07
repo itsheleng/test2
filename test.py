@@ -6,7 +6,7 @@ import streamlit.components.v1 as components
 import datetime
 import streamlit as stl
 import numpy as np
-impport pandas as pd
+import pandas as pd
 
 
 # add title
