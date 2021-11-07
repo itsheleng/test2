@@ -15,9 +15,8 @@ st.info('Case study for our given data for predictive maintenance')
 st.text("")
 st.text("")
 
-# Read in the dataset
-ded = pd.read_csv('https://github.com/itsheleng/test2/blob/3f6d2c0cfbdbeebbf2f6fb07fbdbee577004479c/data.csv')
-ded.head()
+dataset = pd.read_csv('https://github.com/itsheleng/test2/blob/3f6d2c0cfbdbeebbf2f6fb07fbdbee577004479c/data.csv')
+
 
 st.sidebar.text("")
 st.sidebar.text("")
