@@ -16,8 +16,6 @@ st.info('Case study for our given data for predictive maintenance')
 st.text("")
 st.text("")
 
-airbnb = pd.read_csv('https://raw.githubusercontent.com/xristofo/cei523/main/student_scores.csv', index_col = 'Unnamed: 0')
-
 st.sidebar.text("")
 st.sidebar.text("")
 st.sidebar.title("🔗 Sources")
