@@ -7,6 +7,7 @@ import streamlit.components.v1 as components
 import datetime
 import streamlit as stl
 import numpy as np
+import data.cvs
 
 # add title
 st.title('CEI 523 Assignment 2021 📈')
