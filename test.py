@@ -14,7 +14,7 @@ st.info('Case study for our given data for predictive maintenance')
 st.text("")
 st.text("")
 
-data=pd.read_csv()
+data=pd.read_csv(data.csv)
 
 st.sidebar.text("")
 st.sidebar.text("")
