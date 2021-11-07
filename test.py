@@ -7,7 +7,6 @@ import streamlit.components.v1 as components
 import datetime
 import streamlit as stl
 import numpy as np
-import data.cvs
 
 # add title
 st.title('CEI 523 Assignment 2021 📈')
@@ -16,7 +15,7 @@ st.text("")
 st.text("")
 
 # Read in the dataset
-data = pd.read_csv('https://github.com/itsheleng/test2/blob/3f6d2c0cfbdbeebbf2f6fb07fbdbee577004479c/data.cs?raw=true', index_col = 'Unnamed: 0')
+data = pd.read_csv('https://github.com/itsheleng/test2/blob/3f6d2c0cfbdbeebbf2f6fb07fbdbee577004479c/data.csv?raw=true', index_col = 'Unnamed: 0')
 data.head()
 
 st.sidebar.text("")
