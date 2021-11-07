@@ -14,8 +14,8 @@ st.info('Case study for our given data for predictive maintenance')
 st.text("")
 st.text("")
 
-data=pd.read_csv(data.csv)
-
+data=pd.read_csv('https://github.com/itsheleng/test2/blob/3f6d2c0cfbdbeebbf2f6fb07fbdbee577004479c/data.csv')
+data.head()
 st.sidebar.text("")
 st.sidebar.text("")
 st.sidebar.title("🔗 Sources")
