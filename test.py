@@ -21,7 +21,7 @@ from IPython.display import display
 df = pd.read_csv('https://drive.google.com/file/d/1cEMvten1WEJTae9xRw0JNezHrZZhhT9o/view?usp=sharing',error_bad_lines=False, delimiter=',', quotechar='"')
 
 display(df)
-
+df.head()
 
 st.sidebar.text("")
 st.sidebar.text("")
