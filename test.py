@@ -16,7 +16,7 @@ st.text("")
 st.sidebar.text("")
 st.sidebar.text("")
 st.sidebar.title("🔗 Sources")
-st.sidebar.info('[Given Data](https://www.data.gov.cy/)'+'\r')
+st.sidebar.info('[Given Data](https://drive.google.com/file/d/1cEMvten1WEJTae9xRw0JNezHrZZhhT9o/view?usp=sharing)'+'\r')
 
 st.sidebar.title("🛈 About") 
 st.sidebar.info('Created and maintained by:'+'\r'+'[Eleni Giakoumi](eg.giakoumi@edu.cut.ac.cy)'+'[ Andreas Othonos](am.othonos@edu.cut.ac.cy)'+'[ Andriani Petrou](ae.petrou@edu.cut.ac.cy)')
