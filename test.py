@@ -14,6 +14,7 @@ st.title('CEI 523 Assignment 2021 📈')
 st.info('Case study for our given data for predictive maintenance')
 st.text("")
 st.text("")
+st.text("GEIA SOU ELENI KARAMPOYZOYKLOU")
 
 dataset = pd.read_csv('https://github.com/itsheleng/test2/blob/3f6d2c0cfbdbeebbf2f6fb07fbdbee577004479c/data.csv', error_bad_lines=False )
 
